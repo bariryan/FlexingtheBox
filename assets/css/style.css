@@ -1,7 +1,10 @@
 .flexbox-container{
+ 
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: centergit ;
+ 
+ 
 }
 
 .flexbox-item{
@@ -20,5 +23,9 @@
 }
 
 .flexbox-item-3{
+  min-height: 100px;
+}
+
+.flexbox-item-4{
   min-height: 100px;
 }
