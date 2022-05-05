@@ -20,3 +20,10 @@ img:hover {
   opacity: 0.5;
   transition: 0.5;
 }
+
+.flex-container{
+  display: flex;
+}
+.flex-container > div{
+  background-color: aqua;
+}
