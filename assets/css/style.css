@@ -56,3 +56,31 @@ img {
   padding: 5px;
   
 }
+
+.contact-box{
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 #999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+form{
+  margin: 35px;
+}
+
+.input-field{
+    width:  400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #333333;
+    border-radius: 14px;
+    outline: none;
+
+
+
+}
