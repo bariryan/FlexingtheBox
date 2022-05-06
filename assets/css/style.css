@@ -81,6 +81,67 @@ form{
     border-radius: 14px;
     outline: none;
 
+}
 
+/*flexbox for main layout*/
 
+.wrapper{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.wrapper>*{
+  padding: 10px;
+  margin: 10px;
+  flex: 1 100%;
+  border-radius: 10px;
+}
+
+.header{
+  background: #ABF62D;
+}
+
+.footer{
+  background: #D6A3FB;
+  height: 80px;
+}
+
+.main{
+  text-align: left;
+  background: #F4DB7D;
+  height: 300px;
+  font-size: 24px;
+}
+
+.aside1{
+  background: tomato;
+}
+.aside2{
+  background: rgb(34, 47, 164);
+}
+
+@media all and (min-width: 800px){
+  .main{
+    flex: 3;
+  }
+  .aside1{
+    order: 1;
+  }
+  .aside2{
+    order: 2;
+  }
+  .main{
+    order: 2;
+  }
+  .footer{
+    order: 4;
+  }
+}
+
+@media all and (min-width: 600px){
+  .aside{
+    flex: 1;
+   
+  }
 }
